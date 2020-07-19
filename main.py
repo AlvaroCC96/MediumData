@@ -1,24 +1,22 @@
-import pandas as pd
-import numpy as np
+import Compressor
+import FileAverage
+import FileWriter
 import sys
+import time
 
-"""
-Dataframe que almacena solamente las columnas (id,name,publishYear,ratting), debido a que el resto
-no son necesarias para efectos academicos
-"""
+# (1)
+# Compressor of data from books_data.csv
+Compressor.index_data()
 
-totalSize = 0
+# (2)
+# TODO: FIX
+# data = FileWriter.get_books_rating45()
+# sizedata = sys.getsizeof(data) / (1024 * 1024)
+# print("Total bytecount from database: ", sizedata, " MB")
 
-for i in range(1, 12):
-
-    df = pd.read_csv("p"+str(i)+"_books_data.csv", usecols=["Name", "PublishYear", "Rating"],
-                     dtype={
-                         "Name": "string",
-                         "PublishYear": np.int16,
-                         "Rating": np.float16
-                    })
-    totalSize = totalSize + sys.getsizeof(df) / (1024 * 1024)
-
-print("Total bytecount: ", round(totalSize, 3), " MB")
-
-
+# (3)
+# Average of the ratings for the books of the year 2002
+start = time.time()
+average = FileAverage.calculate_average()
+print("Average: ", average.values[0][0])  # TODO: Fix , get otherwise
+print("Time: ", round(time.time() - start, 3))

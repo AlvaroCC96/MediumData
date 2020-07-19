@@ -1,3 +1,16 @@
 .csv
 .idea
 .venv
+/books_data.csv
+/p1_books_data.csv
+/p2_books_data.csv
+/p3_books_data.csv
+/p4_books_data.csv
+/p5_books_data.csv
+/p6_books_data.csv
+/p7_books_data.csv
+/p8_books_data.csv
+/p9_books_data.csv
+/p10_books_data.csv
+/p11_books_data.csv
+/books.sqlite
