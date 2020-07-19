@@ -1,6 +1,9 @@
 .csv
-.idea
+.idea/
 .venv
+.vscode/
+.DS_Store
+
 /books_data.csv
 /p1_books_data.csv
 /p2_books_data.csv
