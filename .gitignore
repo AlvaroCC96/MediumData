@@ -17,3 +17,5 @@
 /p10_books_data.csv
 /p11_books_data.csv
 /books.sqlite
+env-md/
+__pycache__/
