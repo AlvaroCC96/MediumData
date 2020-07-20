@@ -21,5 +21,16 @@ Patricio Araya
   |-|-|-|
   |226 MB|203 MB| 10%
 
+### Item 2
+
+**Desarrolle un script en python que genere un archivo con los datos de los libros que tengan un rating mayor o igual a 4,5. Dicho script debe tener bajo consumo de memoria (máximo 10 MB cargados a la vez).**
+
+### Item 3
+
+**Se conoce que en un futuro se estarán realizando constantemente consultas a los datos y conviene tener agrupados los libros según su año de publicación, ¿qué estrategia propone con este fin?**
+
+- a. Halle el promedio de los ratings para los libros del año 2002 utilizando la estructura original y luego la propuesta por usted. ¿Qué conclusiones puede sacar de los resultados?
+  
+
 
   
