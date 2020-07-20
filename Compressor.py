@@ -3,6 +3,10 @@ import pandas as pd
 import numpy as np
 import sys
 
+"""
+@author Alvaro Castillo , Patricio Araya
+"""
+
 
 # Function that is responsible for reading each dataframe, and storing them in a database
 def index_data():
