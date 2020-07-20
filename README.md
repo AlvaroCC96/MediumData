@@ -43,4 +43,4 @@ Ver Archivo. FileAverage.py
 - a. Halle el promedio de los ratings para los libros del año 2002 utilizando la estructura original y luego la propuesta por usted. ¿Qué conclusiones puede sacar de los resultados?
   
 
-Propuesta De Equipo : FileWritter.p
+Propuesta De Equipo : FileWritter.py
