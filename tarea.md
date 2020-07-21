@@ -31,6 +31,6 @@ Patricio Araya
 
 - a. Halle el promedio de los ratings para los libros del año 2002 utilizando la estructura original y luego la propuesta por usted. ¿Qué conclusiones puede sacar de los resultados?
   
-
+Dado que se conoce que se realizaran frecuentemente consultas por una columna en especifico convendria guardar los datos en una base de datos e indexarlos por año de publicación.
 
   
